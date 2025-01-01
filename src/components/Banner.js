@@ -57,7 +57,9 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Farhan Qazi`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "SQA Engineer", "Product Manager", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <p>I am a passionate Software Engineer with a strong background in Quality Assurance, API testing, and test automation using tools like Cypress, Playwright, and Selenium. My experience spans back-end development, IoT projects, and software testing leadership. I am proficient in implementing CI/CD pipelines and DevOps practices to ensure seamless software delivery and operational efficiency.
+
+In addition to my professional expertise, I have a keen interest in data science and cybersecurity, constantly exploring innovative ways to apply these disciplines in solving complex problems. With a commitment to delivering high-quality solutions, I continuously expand my skills to stay ahead in the evolving tech landscape.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
