@@ -1,6 +1,9 @@
 import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
+import meter4 from "../assets/img/meter3.svg";
+import meter5 from "../assets/img/meter3.svg";
+import meter6 from "../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
@@ -43,14 +46,22 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>SQA Engineer Automation</h5>
+                                <h5>CloudComputing</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
+                                <h5>UI/UX</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter4} alt="Image" />
+                                <h5>SQA Engineer Automation</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter5} alt="Image" />
                                 <h5>Product manager</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter6} alt="Image" />
                                 <h5>Data Analyst</h5>
                             </div>
                         </Carousel>
