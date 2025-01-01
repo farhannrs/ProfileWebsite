@@ -51,9 +51,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>I am a passionate Software Engineer with a strong background in Quality Assurance, API testing, and test automation using tools like Cypress, Playwright, and Selenium. My experience spans back-end development, IoT projects, and software testing leadership. I am proficient in implementing CI/CD pipelines and DevOps practices to ensure seamless software delivery and operational efficiency.
-
-In addition to my professional expertise, I have a keen interest in data science and cybersecurity, constantly exploring innovative ways to apply these disciplines in solving complex problems. With a commitment to delivering high-quality solutions, I continuously expand my skills to stay ahead in the evolving tech landscape.</p>
+                <p>I’m a Software Engineer with expertise in Quality Assurance, test automation, back-end development, and CI/CD pipelines. I have hands-on experience in IoT projects and DevOps practices, ensuring efficient software delivery. Additionally, I’m passionate about data science and cybersecurity, always seeking new ways to integrate these fields into my work to solve complex challenges.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
