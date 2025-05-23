@@ -51,8 +51,8 @@ export const NavBar = () => {
             <span className="navbar-text">
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/farhannrs/"><img src={navIcon1} alt="" /></a>
-                <a href="#"><img src={navIcon2} alt="" /></a>
-                <a href="#"><img src={navIcon3} alt="" /></a>
+                <a href="https://www.instagram.com/farhannrs1/"><img src={navIcon2} alt="" /></a>
+                <a href="https://www.facebook.com/farhannrs"><img src={navIcon3} alt="" /></a>
               </div>
               <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2rfT85YkcPGxo7CUFCiaZNyvn1o3re-3tm00eQKH9e1KYsmCHcQLsyn3eqEJ6Zv_FS0J_8q6RL" target="_blank" rel="noopener noreferrer">
               <button className="vvd">
