@@ -54,9 +54,11 @@ export const NavBar = () => {
                 <a href="#"><img src={navIcon2} alt="" /></a>
                 <a href="#"><img src={navIcon3} alt="" /></a>
               </div>
-              <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
-              </HashLink>
+              <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2rfT85YkcPGxo7CUFCiaZNyvn1o3re-3tm00eQKH9e1KYsmCHcQLsyn3eqEJ6Zv_FS0J_8q6RL" target="_blank" rel="noopener noreferrer">
+              <button className="vvd">
+    <span>Let’s Connect</span>
+  </button>
+</a>
             </span>
           </Navbar.Collapse>
         </Container>
