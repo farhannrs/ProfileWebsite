@@ -57,7 +57,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Profile</span>
                 <h1>{`Hi! I'm Farhan Qazi`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "SQA Engineer", "Product Manager", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I’m a Software Engineer with expertise in Quality Assurance, test automation, back-end development, and CI/CD pipelines. I have hands-on experience in IoT projects and DevOps practices, ensuring efficient software delivery. Additionally, I’m passionate about data science and cybersecurity, always seeking new ways to integrate these fields into my work to solve complex challenges.</p>
+                  <p>I’m a Cybersecurity and SQA Automation Engineer with a strong focus on data-driven quality and secure software delivery. I specialize in building automated testing frameworks, integrating DevSecOps practices, and ensuring end-to-end application reliability through CI/CD pipelines. With expertise in data analysis, I combine technical precision with analytical thinking to deliver scalable, secure, and high-performance solutions.</p>
                   
                   <button onClick={() => window.open('https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2rfT85YkcPGxo7CUFCiaZNyvn1o3re-3tm00eQKH9e1KYsmCHcQLsyn3eqEJ6Zv_FS0J_8q6RL', '_blank')}>Let’s Connect <ArrowRightCircle size={25} /></button>
 

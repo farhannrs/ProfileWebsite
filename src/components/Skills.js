@@ -4,6 +4,7 @@ import meter3 from "../assets/img/meter3.svg";
 import meter4 from "../assets/img/meter4.svg";
 import meter5 from "../assets/img/meter5.svg";
 import meter6 from "../assets/img/meter6.svg";
+import meter7 from "../assets/img/meter7.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
@@ -41,10 +42,6 @@ export const Skills = () => {
                         <p>Skilled in QA automation, performance testing, back-end development, and product management<br></br>with expertise in Selenium, Playwright, Node.js, JavaScript, and Python</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Leadership</h5>
-                            </div>
-                            <div className="item">
                                 <img src={meter2} alt="Image" />
                                 <h5>CloudComputing</h5>
                             </div>
@@ -63,6 +60,10 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={meter6} alt="Image" />
                                 <h5>Data Analyst</h5>
+                            </div>
+                             <div className="item">
+                                <img src={meter7} alt="Image" />
+                                <h5>CyberSecurity</h5>
                             </div>
                         </Carousel>
                     </div>
