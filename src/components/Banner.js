@@ -58,7 +58,10 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Profile</span>
                 <h1>{`Hi! I'm Farhan Qazi`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "SQA Engineer", "Product Manager", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I’m a Software Engineer with expertise in Quality Assurance, test automation, back-end development, and CI/CD pipelines. I have hands-on experience in IoT projects and DevOps practices, ensuring efficient software delivery. Additionally, I’m passionate about data science and cybersecurity, always seeking new ways to integrate these fields into my work to solve complex challenges.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  
+                  <button onClick={() => window.open('https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2rfT85YkcPGxo7CUFCiaZNyvn1o3re-3tm00eQKH9e1KYsmCHcQLsyn3eqEJ6Zv_FS0J_8q6RL', '_blank')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+
+                  {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
               </div>}
             </TrackVisibility>
           </Col>
