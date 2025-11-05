@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "SQA Engineer", "Product Manager", "Data Analyst" ];
+  const toRotate = [ "AI QA Engineer","AI Engineer", "AI Product Manager"];
   const period = 2000;
 
   useEffect(() => {
@@ -57,7 +57,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Profile</span>
                 <h1>{`Hi! I'm Farhan Qazi`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "SQA Engineer", "Product Manager", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I’m a Cybersecurity and SQA Automation Engineer with a strong focus on data-driven quality and secure software delivery. I specialize in building automated testing frameworks, integrating DevSecOps practices, and ensuring end-to-end application reliability through CI/CD pipelines. With expertise in data analysis, I combine technical precision with analytical thinking to deliver scalable, secure, and high-performance solutions.</p>
+                  <p>I’m an AI-focused Cybersecurity and SQA Automation Engineer with a strong emphasis on intelligent, data-driven quality and secure software delivery. I specialize in building AI-integrated testing frameworks, implementing DevSecOps automation, and ensuring end-to-end reliability through CI/CD pipelines. By combining AI, data analytics, and cybersecurity principles, I develop scalable, secure, and high-performance solutions that enhance software quality and accelerate innovation.</p>
                   
                   <button onClick={() => window.open('https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2rfT85YkcPGxo7CUFCiaZNyvn1o3re-3tm00eQKH9e1KYsmCHcQLsyn3eqEJ6Zv_FS0J_8q6RL', '_blank')}>Let’s Connect <ArrowRightCircle size={25} /></button>
 
